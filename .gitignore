@@ -1,0 +1,27 @@
+# Python / env
+.venv/
+__pycache__/
+*.pyc
+
+# Local configs & secrets
+.env
+.env.*
+!.env.example
+
+# Caches & artifacts
+.cache/
+*.sqlite
+data/
+rag_cache/
+.faiss*
+*.idx
+.DS_Store
+
+# Hugging Face / models
+~/.cache/
+huggingface/
+models/
+
+# Node/Streamlit misc
+node_modules/
+.streamlit/
