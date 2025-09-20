@@ -11,16 +11,6 @@ If it can’t ground confidently, it asks **one clarifying question**—no hallu
 
 ---
 
-## Why this project (for recruiters)
-
-- **Realistic enterprise pattern**: on-demand ingestion + retrieval-augmented generation (RAG) with strict grounding.
-- **Deterministic UX**: the system never pretends; it either cites or clarifies.
-- **Clean architecture**: FastAPI (SSE) backend, Streamlit UI, clear separation of concerns.
-- **Observability hooks**: debug endpoints show what was downloaded, chunked, and retrieved.
-- **Hiring signals**: LLM integration, prompt-engineering for JSON control, RAG pipeline design, async ingestion, streaming responses, environment-based config, linted code.
-
----
-
 ## Core Features
 
 - **Docs-Only Grounding**: Pulls from official sources (e.g., `kubernetes.io`, `docs.python.org`, `redis.io`, `react.dev`, `postgresql.org`, `ubuntu.com`, `elastic.co`).
@@ -92,4 +82,5 @@ Run the UI
 
 uv run streamlit run ui/app.py
 # Open the URL shown in the console (usually http://localhost:8501)
+
 
